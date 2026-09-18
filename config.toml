@@ -2,3 +2,6 @@ baseURL = '/'
 languageCode = 'ja'
 title = 'My New Hugo Site'
 theme = "ananke"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

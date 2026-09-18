@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="pa3 pa4-ns">
+
+  <h1>{{ .Title }}</h1>
+
+  <input
+    type="text"
+    id="search-input"
+    placeholder="キーワードを入力してください"
+    style="width: 100%; max-width: 500px; padding: 10px;"
+  >
+
+  <p id="search-count"></p>
+
+  <div id="search-results"></div>
+
+</div>
+
+<script src="/tginet-intern/js/search.js"></script>
+
+{{ end }}
