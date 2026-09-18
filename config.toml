@@ -1,4 +1,4 @@
-baseURL = 'https://al22054.github.io/tginet-intern'
+baseURL = '/'
 languageCode = 'ja'
 title = 'My New Hugo Site'
 theme = "ananke"
